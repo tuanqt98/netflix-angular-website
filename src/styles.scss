@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+/** Reset CSS*/
+@import "/src/styles/init-css";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300&family=Rubik:wght@400;500;700&display=swap");
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
