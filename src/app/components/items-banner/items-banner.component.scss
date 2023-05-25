@@ -1,0 +1,33 @@
+.title {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.title:before,
+.title:after {
+  position: absolute;
+  background-color: #fff;
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  transition: width 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  
+}
+.title:before {
+  left: 0;
+  bottom: 0;
+}
+
+.title:after {
+  right: 0;
+  bottom: 0;
+}
+
+.title:hover:before,
+.title:hover:after {
+  color: #fff;
+  width: 50%;
+  margin: 2px 0;
+}

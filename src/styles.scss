@@ -5,6 +5,10 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined';
 @import '/src/styles/colors';
+@import '../node_modules/primeicons/primeicons.css';
+@import '../node_modules/primeng/resources/themes/lara-dark-indigo/theme.css';
+@import '../node_modules/primeng/resources/primeng.min.css';
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
@@ -19,7 +23,7 @@ a {
   font-family: 'Material Symbols Outlined';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 24px; /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
