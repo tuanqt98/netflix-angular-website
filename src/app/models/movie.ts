@@ -14,3 +14,9 @@ export interface Movies {
   vote_average: number;
   vote_count: number;
 }
+export interface MovieDto {
+  page: number;
+  results: Movies[];
+  total_results: number;
+  total_pages: number;
+}

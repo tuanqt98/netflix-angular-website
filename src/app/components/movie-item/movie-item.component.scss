@@ -1,11 +1,19 @@
 @import '../../../styles/colors';
+
 .movie-item {
   display: block;
-  min-height: 300px;
+  min-height: 325px;
   border-radius: 5px;
   background-color: $bgColorLight;
   position: relative;
   border-radius: 1px solid $bgColorLight;
+  margin: 20px 0;
+  &:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    box-shadow: -2px -2px 20px 2px red, 2px 2px 20px 2px #00f;
+    color: #fff;
+  }
 
   &-image {
     img {
@@ -24,5 +32,16 @@
     background-color: $bgColorLight;
     border-radius: 5px;
     padding: 5px 10px;
+    .app-icon {
+      color: #d4af37;
+      margin-right: 2px;
+    }
+  }
+  &-title {
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
   }
 }
