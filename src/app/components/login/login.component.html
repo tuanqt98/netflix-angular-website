@@ -1,22 +1,38 @@
-<section>
-  <form>
-    <h1>Login</h1>
+<div class="wrapper-form">
+  <form onsubmit="refresh(); return false">
+    <h3>Sign In</h3>
+
     <div class="inputbox">
-      <!-- <ion-icon name="mail-outline"></ion-icon> -->
-      <input type="email" required />
-      <label for="">Email</label>
+      <label>Email or phone number</label>
+      <input type="text" class="email" />
+      <p class="msg"></p>
     </div>
+
     <div class="inputbox">
-      <!-- <ion-icon name="lock-closed-outline"></ion-icon> -->
-      <input type="password" required />
-      <label for="">Password</label>
+      <label>Password</label>
+      <input type="password" class="password" />
+      <p class="msg"></p>
     </div>
-    <div class="forget">
-      <label for=""><input type="checkbox" />Remember Me <a href="#">Forget Password</a></label>
+
+    <input type="submit" value="sign in" class="submit" />
+
+    <div class="helpBox">
+      <div class="checkBox">
+        <input type="checkbox" id="rem" />
+        <label for="rem">Remember me</label>
+      </div>
+
+      <a href="##">Need help?</a>
     </div>
-    <button>Log in</button>
-    <div class="register">
-      <p>Don't have a account <a href="#">Register</a></p>
-    </div>
+
+    <p class="sign">
+      New to Netflix?
+      <a href="##">Sign up now</a>.
+    </p>
+
+    <p class="msg">
+      This page is protected by Google reCAPTCHA to ensure you're not a bot.
+      <a href="##">Learn more.</a>
+    </p>
   </form>
-</section>
+</div>

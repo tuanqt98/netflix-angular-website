@@ -22,12 +22,7 @@ export class AppComponent {
 
   /* or the classic JavaScript object */
   options = {
-    background: {
-      color: {
-        value: '#0d47a1',
-      },
-    },
-    fpsLimit: 120,
+    fpsLimit: 60,
     interactivity: {
       events: {
         onClick: {
@@ -52,10 +47,10 @@ export class AppComponent {
     },
     particles: {
       color: {
-        value: '#ffffff',
+        value: '#FFD54F',
       },
       links: {
-        color: '#ffffff',
+        color: '#FFD54F',
         distance: 150,
         enable: true,
         opacity: 0.5,
@@ -71,7 +66,7 @@ export class AppComponent {
           default: OutMode.bounce,
         },
         random: false,
-        speed: 6,
+        speed: 3,
         straight: false,
       },
       number: {
@@ -88,7 +83,7 @@ export class AppComponent {
         type: 'circle',
       },
       size: {
-        value: { min: 1, max: 5 },
+        value: { min: 1, max: 3 },
       },
     },
     detectRetina: true,
