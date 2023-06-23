@@ -18,7 +18,7 @@ import { TabViewModule } from 'primeng/tabview';
 import { VideoEmbedComponent } from './components/video-embed/video-embed.component';
 import { ScrollToTopComponent } from './components/scroll-to-top/scroll-to-top.component';
 import { ButtonModule } from 'primeng/button';
-import { NgParticlesModule } from 'ng-particles';
+// import { ParticlesModule } from 'angular-particle';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +42,7 @@ import { NgParticlesModule } from 'ng-particles';
     PaginatorModule,
     TabViewModule,
     ButtonModule,
-    NgParticlesModule,
+    // ParticlesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
